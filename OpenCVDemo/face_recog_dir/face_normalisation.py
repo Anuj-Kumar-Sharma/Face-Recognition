@@ -19,7 +19,7 @@ def normalise_intensity(images):
     return norm_image
 
 
-def resize(images, size=(50, 50)):
+def resize(images, size=(128, 128)):
     norm_image = []
     for image in images:
         if image.shape < size:
